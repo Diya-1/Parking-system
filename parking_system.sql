@@ -82,13 +82,6 @@ SET time_zone = "+00:00";
  INSERT INTO `parking_type` (`id`, `name`, `price`) VALUES
  (1, 'Two Wheelar', 30.00),
  (2, 'car', 50.00);
--- (3, 'bus', 250.00),
--- (4, 'Truck', 350.00),
--- (5, 'trolly', 450.00),
--- (6, 'Cycle', 20.00),
--- (7, 'cycle', 20.00),
--- (8, 'motor cycle', 20.00),
--- (9, 'E-cycle', 35.00);
 
 -- --------------------------------------------------------
 
@@ -107,13 +100,5 @@ SET time_zone = "+00:00";
    PRIMARY KEY (`id`)
  ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `transaction`
---
 
--- INSERT INTO `transaction` (`id`, `vehicle_id`, `parking_id`, `entry_date`, `exit_date`, `amount`) VALUES
--- (1, 'dl14cb-1087', 1, '2021-03-08', '2021-03-08', 30.00),
--- (2, 'dl13cb-1090', 29, '2021-03-09', '2021-03-09', 35.00),
--- (3, 'dlcb-1090', 1, '2021-03-09', NULL, NULL),
--- (4, 'dl13cd-1020', 2, '2021-03-09', NULL, NULL);
 COMMIT;
